@@ -1,0 +1,57 @@
+{{ define "main" }}
+
+<!-- Search Input -->
+<input
+  id="search"
+  type="text"
+  placeholder="Search posts..."
+  style="
+    padding: 0.75rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--border);
+    background-color: var(--theme);
+    color: var(--fg);
+  "
+/>
+
+<!-- Post Results -->
+<div id="post-list">
+  {{ range .Site.RegularPages }}
+  <article class="post-entry" data-title="{{ .Title | lower }}" data-summary="{{ .Summary | lower }}">
+    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    <p>{{ .Summary }}</p>
+    <small>{{ .Date.Format "Jan 2, 2006" }}</small>
+  </article>
+  <hr />
+  {{ end }}
+</div>
+
+<!-- No Results Message -->
+<p id="no-results" style="display:none; font-style: italic;">No matching posts found.</p>
+
+<!-- Search Script -->
+<script>
+  const searchInput = document.getElementById("search");
+  const posts = [...document.querySelectorAll("#post-list .post-entry")];
+  const noResults = document.getElementById("no-results");
+
+  searchInput.addEventListener("input", () => {
+    const query = searchInput.value.trim().toLowerCase();
+    let matchCount = 0;
+
+    posts.forEach(post => {
+      const title = post.dataset.title;
+      const summary = post.dataset.summary;
+      const match = title.includes(query) || summary.includes(query);
+
+      post.style.display = match ? "block" : "none";
+      if (match) matchCount++;
+    });
+
+    noResults.style.display = matchCount === 0 ? "block" : "none";
+  });
+</script>
+
+{{ end }}

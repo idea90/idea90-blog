@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "idea90 blog"
 theme = "PaperMod"
 
+disableKinds = ["taxonomy", "taxonomyTerm"]  # Optional: remove /tags and /categories pages
+
 [pagination]
   pagerSize = 5
 
@@ -12,17 +14,8 @@ theme = "PaperMod"
   ShowPostNavLinks = true
   ShowShareButtons = true
 
-[taxonomies]
-  tag = "tags"
-  # category = "categories"  # removed to use tags only
-
 [menu]
   [[menu.main]]
     name = "Home"
     url = "/"
     weight = 1
-
-  [[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 2

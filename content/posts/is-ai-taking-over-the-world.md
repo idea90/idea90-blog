@@ -5,8 +5,6 @@ description: "AI is everywhere—writing, thinking, influencing. Is it taking ov
 tags: ["AI", "Technology", "Future", "Society"]
 ---
 
-
-# Is AI Taking Over the World?
 Let be real AI just being Everywhere in Window11 Edge It's writing code, generating art, answering emails, running customer support, and even helping run parts of governments and cities so a Question rise up 
 
 # Is AI Taking Over the World?

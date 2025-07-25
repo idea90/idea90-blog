@@ -7,8 +7,6 @@ tags: ["AI", "Technology", "Future", "Society"]
 
 Let be real AI just being Everywhere in Window11 Edge It's writing code, generating art, answering emails, running customer support, and even helping run parts of governments and cities so a Question rise up 
 
-# Is AI Taking Over the World?
-
 ## What Does “Taking Over” Actually Mean?
 
 If we mean AI becoming conscious, forming a robot army, and taking control of humanity — that's still sci-fi.

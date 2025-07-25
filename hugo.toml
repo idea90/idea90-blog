@@ -1,4 +1,4 @@
-baseURL = "http://localhost/"
+baseURL = "https://idea90-blog.netlify.app/"
 languageCode = "en-us"
 title = "idea90 blog"
 theme = "PaperMod"

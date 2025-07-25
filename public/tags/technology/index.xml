@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Technology on idea90 blog</title>
+    <link>http://localhost:1313/tags/technology/</link>
+    <description>Recent content in Technology on idea90 blog</description>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Is AI Taking Over the World?</title>
+      <link>http://localhost:1313/posts/is-ai-taking-over-the-world/</link>
+      <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/is-ai-taking-over-the-world/</guid>
+      <description>AI is everywhere—writing, thinking, influencing. Is it taking over, or are we just handing it the keys?</description>
+    </item>
+  </channel>
+</rss>

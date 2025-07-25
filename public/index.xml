@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>idea90 blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on idea90 blog</description>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Is AI Taking Over the World?</title>
+      <link>http://localhost:1313/posts/is-ai-taking-over-the-world/</link>
+      <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/is-ai-taking-over-the-world/</guid>
+      <description>AI is everywhere—writing, thinking, influencing. Is it taking over, or are we just handing it the keys?</description>
+    </item>
+    <item>
+      <title>Welcome to idea90 blog</title>
+      <link>http://localhost:1313/life/my-first-post/</link>
+      <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/life/my-first-post/</guid>
+      <description>&lt;p&gt;Welcome! This is my very first blog post on &lt;strong&gt;idea90 blog&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Hello, my name is Idea. I’m the tech guy.&lt;/p&gt;
+&lt;p&gt;I created this blog for all the tech-savvy people out there who like to break things and fix things.&lt;/p&gt;
+&lt;p&gt;I’m from Laos, and my grammar isn’t perfect, but at least I can type in English. Sometimes I use ChatGPT to help fix my spelling and writing because if I write raw straight from my keyboard, it can be really hard to read. So ChatGPT helps me make it clearer.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

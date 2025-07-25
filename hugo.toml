@@ -1,0 +1,28 @@
+baseURL = "http://localhost/"
+languageCode = "en-us"
+title = "idea90 blog"
+theme = "PaperMod"
+
+[pagination]
+  pagerSize = 5
+
+[params]
+  author = "idea90"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowShareButtons = true
+
+[taxonomies]
+  tag = "tags"
+  # category = "categories"  # removed to use tags only
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
